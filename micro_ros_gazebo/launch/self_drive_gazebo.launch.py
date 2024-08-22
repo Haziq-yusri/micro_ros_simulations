@@ -35,7 +35,7 @@ def make_nodes(context: LaunchContext, robot_model):
 
     return [
         Node(
-            package="kaiaai_gazebo",
+            package="micro_ros_gazebo",
             executable="self_drive_gazebo",
             output="screen",
             parameters = [param_path_name]
